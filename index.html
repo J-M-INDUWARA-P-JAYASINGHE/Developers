@@ -1,0 +1,267 @@
+<html lang="en">
+<head>
+  <link rel="icon" type="image/x-icon" href="https://i.ibb.co/PvBgtxNc/icon.png" />
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>Black Hat Developers - Software Company</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      font-family: "Inter", sans-serif;
+    }
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @keyframes scaleRotateFadeIn {
+      0% {
+        opacity: 0;
+        transform: scale(0.8) rotate(-15deg);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1) rotate(0deg);
+      }
+    }
+    @keyframes slideInLeftFade {
+      0% {
+        opacity: 0;
+        transform: translateX(-30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+    @keyframes slideInRightFade {
+      0% {
+        opacity: 0;
+        transform: translateX(30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+    @keyframes pulseFadeIn {
+      0% {
+        opacity: 0;
+        transform: scale(0.9);
+      }
+      50% {
+        opacity: 1;
+        transform: scale(1.05);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+    @keyframes fadeInScaleUp {
+      0% {
+        opacity: 0;
+        transform: scale(0.95);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+    .animate-fadeInUp {
+      animation: fadeInUp 1s ease forwards;
+    }
+    .animate-scaleRotateFadeIn {
+      animation: scaleRotateFadeIn 1s ease forwards;
+    }
+    .animate-slideInLeftFade {
+      animation: slideInLeftFade 1s ease forwards;
+    }
+    .animate-slideInRightFade {
+      animation: slideInRightFade 1s ease forwards;
+    }
+    .animate-pulseFadeIn {
+      animation: pulseFadeIn 1.2s ease forwards;
+    }
+    .animate-fadeInScaleUp {
+      animation: fadeInScaleUp 1s ease forwards;
+    }
+
+/* === Neon Orange Scrollbar === */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #111; /* dark background */
+}
+::-webkit-scrollbar-thumb {
+  background: orange;
+  border-radius: 6px;
+  border: 2px solid #111;
+  box-shadow: 0 0 10px orange; /* neon glow */
+  transition: all 0.3s ease-in-out;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ff9900;
+  box-shadow: 0 0 15px #ff9900, 0 0 25px #ff6600;
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: orange #111;
+}
+
+/* === Neon Orange Text Selection === */
+::selection {
+  background: orange;
+  color: black;
+  text-shadow: 0 0 5px #ffcc80;
+}
+::-moz-selection {
+  background: orange;
+  color: black;
+  text-shadow: 0 0 5px #ffcc80;
+}
+
+
+
+  </style>
+</head>
+<body class="bg-black text-white flex flex-col items-center justify-center min-h-screen px-6 py-10" style="">
+  <h1 id="animated-title" class="text-5xl sm:text-6xl font-extrabold mb-10 text-center opacity-0 animate-fadeInUp">
+    Black Hat Developers
+  </h1>
+  <div class="mb-12">
+    <img id="animated-logo" alt="Black Hat Developers logo, black hat icon with sharp edges on a transparent background" class="w-72 h-[390px] sm:w-96 sm:h-[520px] md:w-[480px] md:h-[600px] mx-auto opacity-0 animate-scaleRotateFadeIn" height="600" src="https://i.ibb.co/PvBgtxNc/icon.png" width="480">
+  </div>
+  <p id="animated-paragraph-1" class="text-center max-w-3xl text-gray-300 mb-12 leading-relaxed text-base sm:text-lg opacity-0 animate-slideInLeftFade">
+    Black Hat Developers is a cutting-edge software company dedicated to
+    creating innovative solutions for businesses and individuals alike. With
+    expertise spanning mobile applications for Android and iOS, web
+    development, desktop software, and multiplatform solutions, we empower our
+    clients to transform ideas into reality. Our team is passionate about
+    leveraging the latest advancements in artificial intelligence, machine
+    learning, and automation to deliver smart, efficient, and scalable digital
+    experiences✨.
+  </p>
+  <p id="animated-paragraph-2" class="text-center max-w-3xl text-gray-300 mb-12 leading-relaxed text-base sm:text-lg opacity-0 animate-slideInRightFade">
+    In addition to traditional software development, we specialize in creating
+    intelligent Telegram bots, customized automation systems, and AI-driven
+    tools that streamline workflows and enhance engagement. Over the years,
+    Black Hat Developers has cultivated a strong community of tech enthusiasts,
+    industry professionals, and satisfied clients, becoming a trusted hub for
+    innovation in Sri Lanka and beyond. Committed to excellence, creativity,
+    and collaboration, we continue to push the boundaries of what’s possible in
+    software development, helping businesses grow and individuals achieve their
+    technological goals.
+  </p>
+<p id="animated-collaborate" class="mb-6 text-gray-400 text-center text-sm sm:text-base opacity-0 animate-pulseFadeIn">
+  🤝 Let’s collaborate: 
+  <a class="text-orange-500 hover:text-orange-400 hover:underline transition-colors duration-300" href="mailto:jmp.induwarapjayasinghe@gmail.com">
+    jmp.induwarapjayasinghe@gmail.com
+  </a>
+</p>
+
+  <div id="animated-grid" class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-5 max-w-5xl w-full opacity-0 animate-fadeInScaleUp">
+    <a class="flex items-center justify-center gap-3 px-6 py-3 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors w-full" href="https://t.me/induwarapjayasinghe" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-telegram-plane text-blue-400 text-xl"></i>
+      <span class="font-semibold text-lg">Telegram</span>
+    </a>
+    <a class="flex items-center justify-center gap-3 px-6 py-3 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors w-full" href="https://github.com/J-M-INDUWARA-P-JAYASINGHE" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-github text-gray-400 text-xl"></i>
+      <span class="font-semibold text-lg">GitHub</span>
+    </a>
+    <a class="flex items-center justify-center gap-3 px-6 py-3 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors w-full" href="https://lk.linkedin.com/in/induwara-jayasinghe" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-linkedin-in text-blue-600 text-xl"></i>
+      <span class="font-semibold text-lg">LinkedIn</span>
+    </a>
+    <a class="flex items-center justify-center gap-3 px-6 py-3 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors w-full" href="https://whatsapp.com/channel/0029Vb6NS7GKGGGKLui7cE0N" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-whatsapp text-green-500 text-xl"></i>
+      <span class="font-semibold text-lg">WhatsApp</span>
+    </a>
+    <a class="flex items-center justify-center gap-3 px-6 py-3 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors w-full" href="https://clidder.netlify.app/" target="_blank" rel="noopener noreferrer">
+      <img alt="Clidder social profile icon, stylized letter C with gradient blue and purple colors on transparent background" class="w-7 h-7" src="https://i.ibb.co/tP3DmRxS/clidder-new-icon.webp">
+      <span class="font-semibold text-lg">Clidder</span>
+    </a>
+    <a class="flex items-center justify-center gap-3 px-6 py-3 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors w-full" href="https://www.facebook.com/profile.php?id=61575061977120" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-facebook-f text-blue-600 text-xl"></i>
+      <span class="font-semibold text-lg">Facebook</span>
+    </a>
+    <a class="flex items-center justify-center gap-3 px-6 py-3 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors w-full" href="https://x.com/JPM_INDUWARA" target="_blank" rel="noopener noreferrer">
+      <img alt="X social profile icon, stylized letter X in white on black circular background" class="w-7 h-7" src="https://abs.twimg.com/favicons/twitter.3.ico">
+      <span class="font-semibold text-lg">X</span>
+    </a>
+    <a class="flex items-center justify-center gap-3 px-6 py-3 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors w-full" href="https://www.youtube.com/@INDUWARAPJAYASINGHE" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-youtube text-red-600 text-xl"></i>
+      <span class="font-semibold text-lg">YouTube</span>
+    </a>
+    <a class="flex items-center justify-center gap-3 px-6 py-3 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors w-full" href="https://www.instagram.com/induwara_p_jayasinghe/#" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-instagram text-pink-500 text-xl"></i>
+      <span class="font-semibold text-lg">Instagram</span>
+    </a>
+    <a class="flex items-center justify-center gap-3 px-6 py-3 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors w-full" href="https://pin.it/6Cq2oliNP" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-pinterest-p text-red-500 text-xl"></i>
+      <span class="font-semibold text-lg">Pinterest</span>
+    </a>
+    <a class="flex items-center justify-center gap-3 px-6 py-3 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors w-full" href="https://www.threads.com/@induwara_p_jayasinghe" target="_blank" rel="noopener noreferrer">
+      <img alt="Threads social profile icon, stylized letter T in white on black circular background" class="w-7 h-7" src="https://static.cdninstagram.com/rsrc.php/v4/yX/r/7RzDLDb3SrS.png">
+      <span class="font-semibold text-lg">Threads</span>
+    </a>
+    <a class="flex items-center justify-center gap-3 px-6 py-3 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors w-full" href="http://tiktok.com/@induwarapjayasinghe" target="_blank" rel="noopener noreferrer">
+      <img alt="TikTok social profile icon, stylized black note with red and blue accents on transparent background" class="w-7 h-7" src="https://img.freepik.com/premium-vector/tik-tok-logo_578229-290.jpg?semt=ais_incoming&amp;w=740&amp;q=80">
+      <span class="font-semibold text-lg">TikTok</span>
+    </a>
+  </div>
+
+<footer class="w-full max-w-5xl mt-12 border-t border-gray-700 pt-6 text-center text-gray-500 text-sm sm:text-base select-none">
+  <p>
+    &copy; 2019-2025 Black Hat Developers. All rights reserved.
+  </p>
+  <p class="mt-1">
+    Designed and developed with ❤️ by 
+    <a href="mailto:jmp.induwarapjayasinghe@gmail.com" class="text-gray-400 hover:text-orange-500 underline">
+      Induwara P. Jayasinghe
+    </a>.
+  </p>
+</footer>
+
+
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      const title = document.getElementById("animated-title");
+      const logo = document.getElementById("animated-logo");
+      const paragraph1 = document.getElementById("animated-paragraph-1");
+      const paragraph2 = document.getElementById("animated-paragraph-2");
+      const collaborate = document.getElementById("animated-collaborate");
+      const grid = document.getElementById("animated-grid");
+      title.classList.add("animate-fadeInUp");
+      logo.classList.add("animate-scaleRotateFadeIn");
+      paragraph1.classList.add("animate-slideInLeftFade");
+      paragraph2.classList.add("animate-slideInRightFade");
+      collaborate.classList.add("animate-pulseFadeIn");
+      grid.classList.add("animate-fadeInScaleUp");
+    });
+  </script>
+<link rel="manifest" href="manifest.json" />
+<script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("service-worker.js");
+  }
+</script>
+
+</body>
+</html>
